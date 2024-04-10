@@ -36,7 +36,7 @@ const Main = () => {
   }
 
   const handlePreviousPage = () => {
-    if (currentPage > totalPages) {
+    if (currentPage < totalPages) {
       setCurrentPage(currentPage - 1)
     }
   }
