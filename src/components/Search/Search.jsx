@@ -8,7 +8,7 @@ const Seacrh = ({keywords, setKeywords}) => {
         value={keywords} 
         className={styles.input} 
         onChange={(e) => setKeywords(e.target.value)}
-        placeholder='JavaScript'
+        placeholder='type to search..'
       />
     </div>
   )
