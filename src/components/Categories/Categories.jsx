@@ -9,7 +9,7 @@ const Categories = ({categories, setSelectedCategory, selectedCategory}) => {
           !selectedCategory ? styles.active : styles.item
         } 
         >
-        All
+        all
       </button>
       {categories.map(category => {
 
